@@ -1,5 +1,59 @@
-.Footer{
-    background-color: orange;
-    width: 100px;
-    height: 300px ;
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body{
+    background-color: #ffffff;
 }
+.Footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height:504px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; 
+    bottom: 0;
+}
+
+.infoSections {
+    display: flex;
+    width: 100%;
+    height: 90%;
+    justify-content: center;
+
+
+}
+
+.section {
+    margin: 70px 60px ; /* Отступы между секциями */
+    padding: 10px; /* Внутренние отступы */
+}
+.text1{
+    font-family:sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 23.87px;
+    text-align: left;
+
+}
+.text2,.text3{
+
+        font-family: "Abel", serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 16px;
+}
+.socialInfo{
+    width:100%;
+    height: 20px;
+    position: absolute;
+    justify-items: auto;
+
+}
+// .socialFacebook{
+//     background-image: url(/next-typescript/src/app/img/Footer/Facebook.png);
+//     width: 16px;
+//     height: 16px;
+//     gap: 0px;
+//     opacity: 0px;
+    
+// }
