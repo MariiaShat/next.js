@@ -1,5 +1,4 @@
-import classes from "../../styles/components/hoc/Footer.module.scss"
-
+import classes from "../../styles/components/hoc/Footer.module.scss";
 const Footer = ()=>{
     return <div className={classes["Footer"]}>
        <div className={classes["infoSections"]}>
@@ -25,13 +24,13 @@ const Footer = ()=>{
                     <p className={classes["text3"]}>Exchange and return of goods</p>
                     <p className={classes["text3"]}>Guarantee</p>
                     <p className={classes["text3"]}>Frequently asked questions</p>
-                    <p className={classes["text3"]}>Terms of use of the site</p>                </div>
+                    <p className={classes["text3"]}>Terms of use of the site</p>                
+                </div>
         </div>
-        {/* <div className={classes["socialInfo"]}>
-        <div className={classes["socialFacebook"]}></div>
-        </div> */}
         
     </div>
+        
+    // </div>
 }
 
 export default Footer
